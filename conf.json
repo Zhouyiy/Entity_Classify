@@ -1,0 +1,35 @@
+{
+	"CLASS_ENABLE":  {
+						"mus":1,
+					    "mov":1,
+						"loc":1,
+						"god":1,
+						"res":1,
+						"per":1,
+						"lit":0
+					},
+	"STOPWORD_ENABLE": 1, 
+	"TFIDF_CONTENT_RANK": [10, 5, 3, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 
+	"TFIDF_TITLE_RANK": [5, 3, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 
+	"URL_RANK": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+	"FEATURE_ENABLE": {"TFIDF":1, "URL":0},
+	"DATA_PATH":{
+					"Label_Train":"data/labelfile/label_train_folder",
+					"Label_Test":"data/labelfile/label_test_folder",
+					"Idf_Data":"data/processed_data/freq_idf_dict",
+					"Url_Idf_Data":"data/processed_data/url_dict",
+					"Seg_File_Data":"data/processed_data/baidu_seg",
+					"Baidu_Search_Result":"data/baidu_search_result",
+					"TFIDF":"data/feature_file/TFIDF",
+					"URL":"data/feature_file/URL",
+					"FUSED_FEATURE":"data/feature_file/FUSED_FEATURE",
+					"FEATURE_ID_MEAN":"data/feature_file/FEATURE_ID",
+					"Stopword":"data/stopword",
+					"Trained_model":"data/trained_model/model",
+					"Modelinfo":"data/trained_model/modelinfo",
+					"Train_File":"data/pretrain_file/Train_file",
+					"Test_File":"data/pretrain_file/Test_file",
+					"Test_Label_File":"data/pretrain_file/Test_Label_file",
+					"Output":"data/output/output"
+				}
+}
